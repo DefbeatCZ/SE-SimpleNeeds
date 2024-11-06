@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <!-- Refined Organics -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_REFINED_ORG</SubtypeId>
+      </Id>
+      <DisplayName>Cultivated Organics</DisplayName>
+      <Icon>Textures\Icons\CultivatedOrganics.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+    <!-- Base Organics -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_BASELINE_ORG</SubtypeId>
+      </Id>
+      <DisplayName>Trace Organics</DisplayName>
+      <Icon>Textures\Icons\Organics.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+    <!-- Clang Cola -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_ClangCola</SubtypeId>
+      </Id>
+      <DisplayName>Clang Cola</DisplayName>
+      <Icon>Textures\Icons\ClangCola.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.0" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="0.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ClangCola" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>     
+    
+    <!-- Cosmic Coffee -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_CosmicCoffee</SubtypeId>
+      </Id>
+      <DisplayName>Cosmic Coffee</DisplayName>
+      <Icon>Textures\Icons\CosmicCoffee.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.0" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="CosmicCoffee" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+    <!-- Sparkling Water -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_SparklingWater</SubtypeId>
+      </Id>
+      <DisplayName>SparklingWater</DisplayName>
+      <Icon>Textures\Icons\SparklingWat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.5" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="SparklingWater" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint> 
+    
+    <!-- Survival Food -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_EmergencyFood</SubtypeId>
+      </Id>
+      <DisplayName>Emergency Food Pack</DisplayName>
+      <Icon>Textures\Icons\EmergencyFoodPack.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="0.4" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="0.8" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EmergencyFoodPack" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+    
+    <!-- Daily Food -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_DailyFood</SubtypeId>
+      </Id>
+      <DisplayName>Daily Food Pack</DisplayName>
+      <Icon>Textures\Icons\DailyFoodPack.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1.2" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="1.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="DailyFoodPack" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+    
+    <!-- Medkit -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_Medkit</SubtypeId>
+      </Id>
+      <DisplayName>Med Kit</DisplayName>
+      <Icon>Textures\Icons\MedKit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Organic" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Medkit" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+    <!-- Power Kit -->    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CSI_PowerKit</SubtypeId>
+      </Id>
+      <DisplayName>Power Kit</DisplayName>
+      <Icon>Textures\Icons\PowerKit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="7.3" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="8.2" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Powerkit" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+  </Blueprints>
+  
+  <BlueprintClassEntries>
+    
+    <!-- Organic matter -->
+    <Entry Class="SurvivalKitIngots" BlueprintSubtypeId="CSI_REFINED_ORG" />
+    <Entry Class="SurvivalKitIngots" BlueprintSubtypeId="CSI_BASELINE_ORG" />
+    
+    <!-- Consumables -->
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_ClangCola" />
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_CosmicCoffee" />
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_SparklingWater" />
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_EmergencyFood" /> 
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_DailyFood" />
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_Medkit" />
+    <Entry Class="BasicEquipment" BlueprintSubtypeId="CSI_PowerKit" />
+    
+  </BlueprintClassEntries>  
+  
+</Definitions>
