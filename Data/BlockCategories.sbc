@@ -1,0 +1,76 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Consumables</DisplayName>
+      <Name>Section0_Position3_CharacterConsumables</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>ConsumableItem/Medkit</string>
+        <string>ConsumableItem/Powerkit</string>
+        <string>ConsumableItem/CosmicCoffee</string>
+        <string>ConsumableItem/ClangCola</string>
+        <string>ConsumableItem/SparklingWater</string>
+        <string>ConsumableItem/InterBeer</string>
+        <string>ConsumableItem/LaysChips</string>
+        <string>ConsumableItem/PrlnglesChips</string>
+        <string>ConsumableItem/EmergencyFoodPack</string>
+        <string>ConsumableItem/DailyFoodPack</string>
+      </ItemIds>
+    </Category>
+    
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <!-- Character Weapons -->
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_CharacterItems</DisplayName>
+      <Name>Section0_Position1_CharacterItems</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+        <string>PhysicalGunObject/WelderItem</string>
+        <string>PhysicalGunObject/Welder2Item</string>
+        <string>PhysicalGunObject/Welder3Item</string>
+        <string>PhysicalGunObject/Welder4Item</string>
+        <string>PhysicalGunObject/AngleGrinderItem</string>
+        <string>PhysicalGunObject/AngleGrinder2Item</string>
+        <string>PhysicalGunObject/AngleGrinder3Item</string>
+        <string>PhysicalGunObject/AngleGrinder4Item</string>
+        <string>PhysicalGunObject/HandDrillItem</string>
+        <string>PhysicalGunObject/HandDrill2Item</string>
+        <string>PhysicalGunObject/HandDrill3Item</string>
+        <string>PhysicalGunObject/HandDrill4Item</string>
+        <string>PhysicalGunObject/GoodAIRewardPunishmentTool</string>
+        <string>PhysicalGunObject/FlareGunItem</string>
+        <string>PhysicalGunObject/SemiAutoPistolItem</string>
+        <string>PhysicalGunObject/FullAutoPistolItem</string>
+        <string>PhysicalGunObject/ElitePistolItem</string>
+        <string>PhysicalGunObject/AutomaticRifleItem</string>
+        <string>PhysicalGunObject/RapidFireAutomaticRifleItem</string>
+        <string>PhysicalGunObject/PreciseAutomaticRifleItem</string>
+        <string>PhysicalGunObject/UltimateAutomaticRifleItem</string>
+        <string>PhysicalGunObject/BasicHandHeldLauncherItem</string>
+        <string>PhysicalGunObject/AdvancedHandHeldLauncherItem</string>
+        <string>ConsumableItem/Medkit</string>
+        <string>ConsumableItem/Powerkit</string>
+        <string>ConsumableItem/CosmicCoffee</string>
+        <string>ConsumableItem/ClangCola</string>
+        <string>ConsumableItem/SparklingWater</string>
+        <string>ConsumableItem/InterBeer</string>
+        <string>ConsumableItem/LaysChips</string>
+        <string>ConsumableItem/PrlnglesChips</string>
+        <string>ConsumableItem/EmergencyFoodPack</string>
+        <string>ConsumableItem/DailyFoodPack</string>
+      </ItemIds>
+    </Category>
+    
+  </CategoryClasses>
+</Definitions>
