@@ -72,5 +72,18 @@
       </ItemIds>
     </Category>
     
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition"> 
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Production</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Section1_Position3_Production</Name>
+			<StrictSearch>true</StrictSearch>      
+      <ItemIds>
+        <string>Refinery/FoodPlanters</string>
+      </ItemIds>
+    </Category>
+    
   </CategoryClasses>
 </Definitions>
