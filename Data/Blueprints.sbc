@@ -167,7 +167,7 @@
       <DisplayName>Trace Organics</DisplayName>
       <Icon>Textures\Icons\Organics.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="25" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="0.4" TypeId="Ore" SubtypeId="Organic" />
       <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
@@ -182,7 +182,7 @@
       <DisplayName>Cultivated Organics</DisplayName>
       <Icon>Textures\Icons\CultivatedOrganics.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="25" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
       <Result Amount="0.4" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
