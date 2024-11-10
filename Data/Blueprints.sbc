@@ -11,10 +11,11 @@
       <DisplayName>Cultivated Organics</DisplayName>
       <Icon>Textures\Icons\CultivatedOrganics.dds</Icon>
       <Prerequisites>
-        <Item Amount="25" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="5" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="Organic" />
       </Prerequisites>
-      <Result Amount="0.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+      <Result Amount="0.1" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
     </Blueprint> 
 
@@ -29,7 +30,7 @@
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
-      <Result Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
+      <Result Amount="0.2" TypeId="Ore" SubtypeId="Organic" />
       <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
     </Blueprint> 
 
@@ -61,8 +62,7 @@
       <Prerequisites>
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="1.0" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="0.1" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+        <Item Amount="0.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="CosmicCoffee" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
@@ -79,7 +79,6 @@
       <Prerequisites>
         <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="1.5" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="SparklingWater" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
@@ -97,8 +96,8 @@
         <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="0.4" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="0.8" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+        <Item Amount="0.8" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="0.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EmergencyFoodPack" />
       <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
@@ -116,8 +115,8 @@
         <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="8" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="1.2" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="1.2" TypeId="Ore" SubtypeId="CultivatedOrganic" />
+        <Item Amount="0.8" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="0.8" TypeId="Ore" SubtypeId="CultivatedOrganic" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="DailyFoodPack" />
       <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
@@ -136,7 +135,7 @@
         <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="3" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Medkit" />
       <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
